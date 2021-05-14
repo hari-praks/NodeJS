@@ -1,4 +1,4 @@
-/*For Connection
+/*For Connection*/
 
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
@@ -11,9 +11,9 @@ MongoClient.connect(url, function(err, db) {
     console.log("Collection created!");
     db.close();
   });
-});*/
+});
 
-/* Inserting Multiple Record
+/* Inserting Multiple Record*/
 
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
@@ -33,9 +33,9 @@ MongoClient.connect(url, function(err, db) {
     console.log("No of documents inserted:"+res.insertedCount);
     db.close();
   });
-});*/
+});
 
-/* For Fetching Data
+/* For Fetching Data*/
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
 
@@ -47,10 +47,10 @@ MongoClient.connect(url, function(err, db) {
     console.log(result);
     db.close();
   });
-});*/
+});
 
 
-/* Sorting records
+/* Sorting records*/
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
 
@@ -63,9 +63,9 @@ MongoClient.connect(url, function(err, db) {
     console.log(result);
     db.close();
   });
-});*/
+});
 
-/* For updating
+/* For updating*/
 
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
@@ -80,9 +80,9 @@ MongoClient.connect(url, function(err, db) {
     console.log("1 document updated");
     db.close();
   });
-});*/
+});
 
-/* Limiting  to 4 
+/* Limiting  to 4 */
 
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
@@ -95,9 +95,9 @@ MongoClient.connect(url, function(err, db) {
     console.log(result);
     db.close();
   });
-});*/
+});
 
-/* For greater than query
+/*For greater than query*/
 var MongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/";
 
@@ -110,4 +110,4 @@ MongoClient.connect(url, function(err, db) {
     console.log(result);
     db.close();
   });
-});*/
+});
