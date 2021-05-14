@@ -79,7 +79,7 @@ MongoClient.connect('mongodb://localhost:27017/', function(err, db)
 					var port = server.address().port
 					console.log("Example app listening at http://%s:%s//", host,port)})
 
-/*
+
 app.post('/post_contact',urlencodedParser, function (req, res) {
 // Prepare output in JSON format
 response = { Name:req.body.Name, Emailid:req.body.email, Subject:req.body.Subject,Message:req.body.message };
@@ -153,6 +153,6 @@ app.post('/show', async (req, res) => {
     }
 })
 
-*/
+
 
 
