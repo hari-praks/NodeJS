@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Customer</title>
+    <style type="text/css">
+
+#id1{
+    margin-left: 30%;
+}
+    
+#input-field
+{
+width: 50%;
+padding: 10px 0;
+margin: 5px 0;
+border-left: 0;
+border-top: 0;
+border-right:0;
+border-bottom: 1px solid  #999;
+outline:none;
+background:transparent;
+}
+#checkbox{
+margin: 30px 10px 30px 0;
+}
+#submit-btn{
+width:25%;
+padding:10px 30px;
+cursor:pointer;
+display:block;
+margin:auto;
+background:linear-gradient(to right,#ff105f,#ffad06);
+border:0;
+outline:none;
+border-radius:30px;
+}
+</style>
+</head>
+
+<body>
+    <h1>ADD AN ORDER</h1>
+    <form action="/products" method="POST">
+        <div id="id1">
+        <div>
+               <input type="text" id="input-field" name="cid" placeholder="CId" required>
+            </div>
+       
+        <input type="text" id="input-field" name="fname" id="fname" placeholder="First name"><br><br>
+        
+        <input type="text" id="input-field" name="lname" id="lname" placeholder="Last name"><br><br>
+        <div>
+               <input type="text" id="input-field" name="oid" placeholder="OId" required>
+            </div>
+            <div>
+               <input type="text" id="input-field" name="mid" placeholder="MId" required>
+            </div>
+            <div>
+               <input type="date" id="input-field" name="date" required>
+            </div>
+            <div>
+               <input type="time" id="input-field" name="time"  required>
+            </div>
+            <div>
+               <input type="text" id="input-field" name="quantity" placeholder="qty" required>
+            </div>
+        </div>
+        <br><br>
+         <div>
+            <input type="submit" id="submit-btn" value="Register" align="center"></input>
+            </div>
+    </form>
+
+</body>
+
+</html>
